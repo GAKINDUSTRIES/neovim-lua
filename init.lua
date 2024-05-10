@@ -1,4 +1,5 @@
-vim.cmd([[packadd lazy.nvim]])  -- Ensure lazy.nvim is loaded
+-- Ensure lazy.nvim is loaded
+require('plugins.lazy')
 
 -- Load CORE configurations
 require('core.general')
@@ -20,4 +21,5 @@ require('core.performance')
 -- This will now use lazy.nvim to load other plugins
 require('plugins.init')
 
-vim.api.nvim_set_keymap('n', '<leader>fp', ':lua require("utils.rails_class_name").copy_class_name_to_clipboard()<CR>', { noremap = true, silent = true })
+-- load UTILS
+require('utils.rails_shortcuts')
