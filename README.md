@@ -12,12 +12,48 @@ This repository contains a personal Neovim configuration written in Lua aimed at
 
 This configuration includes a selection of plugins managed by `lazy.nvim` for optimal performance and enhanced functionality:
 
-- **[lazy.nvim](https://github.com/folke/lazy.nvim)**: A fast and flexible Neovim plugin manager written in Lua.
-- **[gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)**: Git integration to show git status in the sign column and perform in-buffer git operations.
-- **[nvim-lint](https://github.com/mfussenegger/nvim-lint)**: Asynchronous linting.
-- **[vim-test](https://github.com/vim-test/vim-test)**: Run tests from within Neovim and view the results.
-- **[vim-rails](https://github.com/tpope/vim-rails)**: Ruby on Rails power tools.
-- More plugins can be listed as per your actual configuration.
+- **[lazy.nvim](https://github.com/folke/lazy.nvim)**: A fast and flexible Neovim plugin manager that enhances the startup time and performance by lazy-loading plugins.
+
+- **[nvim-autopairs](https://github.com/windwp/nvim-autopairs)**: A Neovim plugin for auto-closing pairs that automatically completes `"(", "{", "["`, etc. with smart handling for quotes and more.
+
+- **[tokyonight.nvim](https://github.com/folke/tokyonight.nvim)**: A clean, dark Neovim theme inspired by the Tokyo night landscape, available in both storm and night styles.
+
+- **[Comment.nvim](https://github.com/numToStr/Comment.nvim)**: A smart and powerful commenting plugin for Neovim that supports motion, line, and visual mode comment toggling.
+
+- **[conform.nvim](https://github.com/stevearc/conform.nvim)**: A Neovim plugin that automates the enforcement of code style and conventions by leveraging the power of editorconfig.
+
+- **[vim-easy-align](https://github.com/junegunn/vim-easy-align)**: A Vim alignment plugin that makes aligning text, code, comments, and tags simple and easy.
+
+- **[gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)**: Integrates closely with git repositories to provide real-time diff markers and hunk management directly in the buffer.
+
+- **[hop.nvim](https://github.com/phaazon/hop.nvim)**: A motion plugin for Neovim that allows you to jump to any word, character, or line visible on the screen with minimal keystrokes.
+
+- **[nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)**: Quick and easy setup for the Neovim LSP client configurations for fast and functional language servers integration.
+
+- **[lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)**: A blazing fast and customizable status line plugin for Neovim that looks sleek and minimal.
+
+- **[mason.nvim](https://github.com/williamboman/mason.nvim)**: A Neovim plugin that provides an interface to easily manage external editor tooling like LSPs, DAPs, linters, and formatters.
+
+- **[nvim-cmp](https://github.com/hrsh7th/nvim-cmp)**: A modern Neovim completion framework that provides highly extendable and customizable auto-completion support.
+
+- **[nvim-lint](https://github.com/mfussenegger/nvim-lint)**: An asynchronous linter plugin for Neovim that supports multiple programming languages with easy configuration.
+
+- **[nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)**: A highly customizable file explorer for Neovim that integrates seamlessly with other plugins.
+
+- **[nvim-surround](https://github.com/kylechui/nvim-surround)**: A plugin to make altering, adding, and removing surrounding characters such as parentheses, brackets, quotes, and tags efficient.
+
+- **[telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)**: A highly extendable fuzzy finder over lists that provides a rich user interface for managing and searching through large sets of data.
+
+- **[nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects)**: Uses treesitter to create custom text objects for Neovim, enhancing code navigation and manipulation.
+
+- **[nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)**: Neovim plugin for text highlighting, folding, and related features, using a fast incremental parsing library.
+
+- **[vim-rails](https://github.com/tpope/vim-rails)**: Ruby on Rails power tools for Vim, providing advanced navigation and refactoring utilities tailored for Rails projects.
+
+- **[vim-test](https://github.com/vim-test/vim-test)**: A comprehensive test runner for Neovim, supporting a multitude of test frameworks and languages, directly from within the editor.
+
+- **[vim-visual-multi](https://github.com/mg979/vim-visual-multi)**: Multiple cursors plugin for Vim, allowing simultaneous text editing in multiple positions in a buffer.
+
 
 ## Installation
 
@@ -58,7 +94,14 @@ After running the installation script, launch Neovim to complete any additional 
 
 ## Contributing
 
-Contributions to this Neovim configuration are welcome. Feel free to fork the project and submit a pull request.
+Looking to contribute? Great! Here’s how you can help:
+
+1. Fork the repository.
+1. Create a new branch (git checkout -b feature-branch).
+1. Make your changes.
+1. Commit your improvements (git commit -am 'Add some feature').
+1. Push to the branch (git push origin feature-branch).
+1. Create a new Pull Request.
 
 
 ## License
